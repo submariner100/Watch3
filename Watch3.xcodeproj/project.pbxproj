@@ -19,6 +19,8 @@
 		270F9FFC1ED2FBFD00334842 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F9FFB1ED2FBFD00334842 /* InterfaceController.swift */; };
 		270F9FFE1ED2FBFD00334842 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F9FFD1ED2FBFD00334842 /* ExtensionDelegate.swift */; };
 		270FA0001ED2FBFD00334842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270F9FFF1ED2FBFD00334842 /* Assets.xcassets */; };
+		270FA0101ED300ED00334842 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FA00F1ED300ED00334842 /* KeychainWrapper.swift */; };
+		270FA0121ED3010500334842 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FA0111ED3010500334842 /* KeychainItemAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		270F9FFD1ED2FBFD00334842 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		270F9FFF1ED2FBFD00334842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270FA0011ED2FBFD00334842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270FA00F1ED300ED00334842 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		270FA0111ED3010500334842 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 			children = (
 				270F9FFB1ED2FBFD00334842 /* InterfaceController.swift */,
 				270F9FFD1ED2FBFD00334842 /* ExtensionDelegate.swift */,
+				270FA00F1ED300ED00334842 /* KeychainWrapper.swift */,
+				270FA0111ED3010500334842 /* KeychainItemAccessibility.swift */,
 				270F9FFF1ED2FBFD00334842 /* Assets.xcassets */,
 				270FA0011ED2FBFD00334842 /* Info.plist */,
 			);
@@ -301,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270FA0101ED300ED00334842 /* KeychainWrapper.swift in Sources */,
+				270FA0121ED3010500334842 /* KeychainItemAccessibility.swift in Sources */,
 				270F9FFE1ED2FBFD00334842 /* ExtensionDelegate.swift in Sources */,
 				270F9FFC1ED2FBFD00334842 /* InterfaceController.swift in Sources */,
 			);

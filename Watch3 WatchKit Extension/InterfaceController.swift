@@ -15,8 +15,8 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        testUserDefaults()
-        testUserDefaults()
+        testKeyChain()
+        testKeyChain()
     }
     
     func testUserDefaults() {
@@ -35,6 +35,23 @@ class InterfaceController: WKInterfaceController {
                print("Writing to defaults")
                defaults.set("This is the saved default", forKey: "shared_default")
           
+          }
+     }
+     
+     func testKeyChain() {
+          
+          let keychain = KeychainWrapper.standard
+          
+          if let contents = keychain.string(forKey: "shared_keychain") {
+          
+               print("Reading from keychain")
+               print(contents)
+          
+          } else {
+     
+               print("Writing to keychain")
+               keychain.set("This is the saved keychain", forKey: "shared_keychain")
+     
           }
      }
     
